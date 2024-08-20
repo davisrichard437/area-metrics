@@ -1,0 +1,21 @@
+[project]
+name = "area"
+version = "0.1.0"
+description = "Stuff"
+requires-python = ">=3.8"
+dependencies = [
+  "matplotlib>=3.9.0",
+  "numpy>=2.0.0",
+  "opencv-python>=4.10.0.84",
+  "toolz>=0.12.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ipython",
+  "PyQt6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
